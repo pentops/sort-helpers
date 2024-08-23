@@ -4,6 +4,9 @@
   "description": "",
   "main": "dist/index.js",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm -rf dist",
     "build": "pnpm run clean && rollup -c rollup.config.js",
